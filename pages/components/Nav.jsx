@@ -14,13 +14,13 @@ const Nav = () => {
     <div>
       <nav className="flex items-center flex-wrap bg-shark-blue p-3 pr-5">
         <ScrollLink to="home" spy={true} smooth={true}>
-          <a className="inline-flex items-center m-2 mr-4 ">
+          <p className="inline-flex items-center m-2 mr-4 ">
             <img
               className="fill-current text-white h-8 w-18 mr-2"
               src="shark-logo-white.svg"
               alt="shark-logo"
             />
-          </a>
+          </p>
         </ScrollLink>
 
         <button
